@@ -17,10 +17,8 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Container(
-        padding: const EdgeInsets.fromLTRB(10, 20, 30, 40),
-        margin: const EdgeInsets.all(30.0),
-        color: Colors.grey[400],
+      body: const Padding(
+        padding: EdgeInsets.all(30.0),
         child: Text('hello'),
       ),
       floatingActionButton: FloatingActionButton(
